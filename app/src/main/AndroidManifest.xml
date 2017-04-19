@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="chiukingyee.animationsample">
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".ActivityTransition">
+    </activity>
+    <activity android:name=".ActivityTransitionDetails">
+    </activity>
+    <activity android:name=".AnimationCloning">
+    </activity>
+    <activity android:name=".AnimationLoading">
+    </activity>
+    <activity android:name=".AnimationSeeking">
+    </activity>
+    <activity android:name=".AnimatorEvents">
+    </activity>
+    <activity android:name=".BouncingBalls">
+    </activity>
+    <activity android:name=".CustomEvaluator">
+    </activity>
+    <activity android:name=".LayoutAnimations">
+    </activity>
+    <activity android:name=".LayoutAnimationsByDefault">
+    </activity>
+    <activity android:name=".LayoutAnimationsHideShow">
+    </activity>
+    <activity android:name=".ListFlipper">
+    </activity>
+    <activity android:name=".MultiPropertyAnimation">
+    </activity>
+    <activity android:name=".PathAnimations">
+    </activity>
+    <activity android:name=".ReversingAnimation">
+    </activity>
+    <activity android:name=".Transition3d">
+    </activity>
+    <activity android:name=".Transitions">
+    </activity>
+  </application>
+
+</manifest>

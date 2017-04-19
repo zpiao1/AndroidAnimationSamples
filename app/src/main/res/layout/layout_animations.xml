@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/parent"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+      android:id="@+id/addNewButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/add_button"/>
+
+    <CheckBox
+      android:id="@+id/customAnimCB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/custom_animations"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+      android:id="@+id/appearingCB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="@string/in"/>
+
+    <CheckBox
+      android:id="@+id/disappearingCB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="@string/out"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+      android:id="@+id/changingAppearingCB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="@string/changing_in"/>
+
+    <CheckBox
+      android:id="@+id/changingDisappearingCB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="@string/changing_out"/>
+
+  </LinearLayout>
+
+</LinearLayout>
